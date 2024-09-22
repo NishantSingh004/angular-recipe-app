@@ -1,0 +1,143 @@
+/* .container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/homepg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brown{
+  color: rgb(184, 92, 38);
+  font-size: 20vh;
+}
+
+.black{
+  color: rgb(251, 119, 72);
+  font-weight: 50;
+}
+.title{
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.searchbox{
+  border: none;
+  width: 50%;
+  font-size: 25px;
+  padding: 5px 30px 5px 30px ;
+  height: 40px;
+  border-radius: 60px;
+  outline: none;
+  margin-top: 30px;
+  background-color: rgb(237, 242, 244);
+  color: rgb(145, 141, 141);
+}
+
+.search{
+  border: none;
+  background-color: rgb(237, 242, 244);
+  outline: none;
+  margin-top: 30px;
+  font-size: 26px;
+  height: 46px;
+  width: 10%;
+  border-radius: 46px;
+  cursor: pointer;
+}
+
+.search:active{
+  background-color: rgb(231, 212, 212);
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/homepg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brown {
+  color: rgb(184, 92, 38);
+  font-size: 20vh;
+}
+
+.black {
+  color: rgb(251, 119, 72);
+  font-weight: 50;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.searchbox {
+  border: none;
+  width: 50%;
+  font-size: 25px;
+  padding: 5px 30px;
+  height: 40px;
+  border-radius: 60px;
+  outline: none;
+  margin-top: 30px;
+  background-color: rgb(237, 242, 244);
+  color: rgb(145, 141, 141);
+}
+
+.search {
+  border: none;
+  background-color: rgb(237, 242, 244);
+  outline: none;
+  margin-top: 30px;
+  font-size: 26px;
+  height: 46px;
+  width: 10%;
+  border-radius: 46px;
+  cursor: pointer;
+}
+
+.search:active {
+  background-color: rgb(231, 212, 212);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .searchbox {
+    width: 80%;
+    font-size: 20px;
+    padding: 5px 20px;
+    height: 35px;
+  }
+
+  .search {
+    width: 20%;
+    font-size: 22px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchbox {
+    width: 90%;
+    font-size: 18px;
+    padding: 5px 15px;
+    height: 30px;
+  }
+
+  .search {
+    width: 30%;
+    font-size: 20px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,26 @@
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  background-image: url('../../assets/wood.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(6, 132, 3);
+  padding-bottom: 50px;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+li{
+  font-size: 20px;
+}
